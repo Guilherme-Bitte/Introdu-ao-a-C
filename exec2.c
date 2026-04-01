@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    float valor ;
+    float compra ;
     printf ("Qual o valor da compra: ");
-    scanf ("%f" , &valor);
+    scanf ("%f" , &compra);
     
-    if (valor >= 100){
+    if (compra > 100){
         printf("Desconto");
     }
     else{
